@@ -1,0 +1,12 @@
+prueba:
+    resource: "@PruebaBundle/Resources/config/routing.yml"
+    prefix:   /prueba
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+otra_prueba:
+    resource: "@OtraPruebaBundle/Controller/"
+    type:     annotation
+    prefix:   /otraprueba

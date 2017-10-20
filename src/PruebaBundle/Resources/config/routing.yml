@@ -1,0 +1,11 @@
+prueba_homepage:
+    path:     /
+    defaults: { _controller: PruebaBundle:Default:index }
+
+
+
+
+
+
+
+
